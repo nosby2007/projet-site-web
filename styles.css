@@ -88,7 +88,20 @@ nav .logo{
    font-size: 120px;
    line-height: 120px;
    margin-left: -10px;
+   color: transparent;
+   -webkit-text-stroke: 1px #fff;
+   background: url(/assets/pattern.png);
+   -webkit-background-clip: text;
+   background-position: 0 0;
+   animation: animate 5s linear 2s infinite alternate;
  }
+
+@keyframes animate{
+  100%{
+    background-position: -500px 0;
+  }
+}
+
  .site-container h3{
    font-size: 40px;
    font-weight: 500;
