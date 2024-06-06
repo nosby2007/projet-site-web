@@ -41,6 +41,7 @@ nav .logo{
  }
  ul li{
     margin-right: 10px;
+    border: 1px solide #fff;
  }
  ul li a {
     position: relative;
@@ -48,6 +49,7 @@ nav .logo{
     text-decoration: none;
     color: #fff;
     font-size: 16px;
+    
  }
  ul li a::after{
     content: '';
@@ -68,4 +70,54 @@ nav .logo{
      color: rgb(150, 36, 243);
     font-size: 20px;
     box-shadow: darkgray;
+    border: 1px solid #fff;
+    background-color: #fff;
+ }
+
+ .site-container{
+   position:absolute;
+   bottom: 10%;
+   color: #fff;
+ }
+
+ .site-container p{
+   font-size: 50px;
+   font-weight: bold;
+ }
+ .site-container h1{
+   font-size: 120px;
+   line-height: 120px;
+   margin-left: -10px;
+ }
+ .site-container h3{
+   font-size: 40px;
+   font-weight: 500;
+ }
+
+ .site-container .row{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 40px;
+   
+ }
+ .row a{
+   display: flex;
+   align-items: center;
+   padding: 5px 20px;
+   text-decoration: none;
+   color: #fff;
+   border: 1px solid #fff;
+   margin-right: 40px;
+   font-size: 20px;
+   transition: 0.3s;
+ }
+ .row a:hover{
+   color: black;
+   background-color: #fefefe;
+ }
+
+ .row span{
+   font-size: 18px;
+   margin-left: 10px;
  }
